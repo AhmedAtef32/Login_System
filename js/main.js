@@ -64,7 +64,7 @@ function addAcount() {
     } else {
       Swal.fire({
         icon: "error",
-        title: "The email already exists",
+        title: "This email already exists",
         text: "Please Enter another email !",
       });
     }
